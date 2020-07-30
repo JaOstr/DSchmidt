@@ -96,11 +96,13 @@ int main () {
   // Show the use of a template member function.
   container<int> myint(7);
   cout << myint.increase() << endl;
+  cout << endl;
 
   // Show the use of another template member function.
   long l;
   class_A<long> a(&l);
   a.f(&l);
+  cout << endl;
 
   // Show the use of a member function template.
   int i;
@@ -108,6 +110,7 @@ int main () {
   class_B b;
   b.mf(&i); // The C++ compiler is automatically synthesizing
   b.mf(&d); // the mf() member function template for int and double.
+  cout << endl;
 
   // Show more uses of template class and a member function template.
   class_C<int> c;
@@ -117,6 +120,7 @@ int main () {
   cc.mf(20.5, &d);
   c.f(&i);
   cc.f(&d);
+  cout << endl;
 
   return 0;
 }
