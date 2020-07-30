@@ -1,5 +1,5 @@
 # DSchmidt
-Notes and examples from following Douglas Schmidt (Vanderbilt University) courses on YT.
+Notes and examples from Douglas Schmidt (Vanderbilt University) courses on YT.
 
 Put each course notes in a separate folder.
 
